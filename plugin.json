@@ -1,8 +1,8 @@
 {
-    "id": "nodebb-plugin-emailer-mailgun",
-    "name": "Emailer (Mailgun)",
-    "description": "Mailgun Emailer for NodeBB",
-    "url": "https://github.com/julianlam/nodebb-plugin-emailer-mailgun",
+    "id": "nodebb-plugin-emailer-mailgun-eu",
+    "name": "Emailer (Mailgun EU)",
+    "description": "Mailgun EU Emailer for NodeBB",
+    "url": "https://github.com/d3alek/nodebb-plugin-emailer-mailgun",
     "library": "./index.js",
     "templates": "templates",
     "hooks": [
