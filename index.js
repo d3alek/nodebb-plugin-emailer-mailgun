@@ -17,7 +17,8 @@ Emailer.init = function(params, callback) {
 		if (!err && settings && settings.apiKey && settings.domain) {
 			server = Mailgun({
 				apiKey: settings.apiKey,
-				domain: settings.domain
+				domain: settings.domain,
+				host: 'api.eu.mailgun.net'
 			});
 		} else {
 			winston.error('[plugins/emailer-mailgun] API key or Domain not set!');
